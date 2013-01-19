@@ -21,6 +21,6 @@ setup(name='js.templates',
           'fanstatic',
       ],
       entry_points={
-          'fanstatic.libraries': ['templates = js.templates:library', ],
+          'fanstatic.libraries': ['js_templates = js.templates:library', ],
       }
       )
