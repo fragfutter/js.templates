@@ -1,6 +1,6 @@
 from fanstatic import Library, Resource
 
-library = Library('templates', 'resources')
+library = Library('js_templates', 'resources')
 
 resources = Resource(library,
                      'tmpl.js',
